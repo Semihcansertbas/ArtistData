@@ -40,7 +40,7 @@ class TracksAdapter: RecyclerView.Adapter<TracksAdapter.TracksViewHolder>() {
         )
     }
 
-
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: TracksViewHolder, position: Int) {
         val track = tracks[position]
 
